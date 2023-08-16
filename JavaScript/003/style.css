@@ -1,0 +1,54 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color:lightgray;
+    font-size: 28px;
+}
+#pojemnik
+{
+    width: 900px;
+    min-height: 900px;
+}
+#pojemnik2
+{
+    width: 100%;
+    display: flex;      
+}
+#plansza
+{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+}
+#szubienica
+{
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+#alfabet
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+.litera
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    cursor: pointer;
+}
